@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
+    <title>HACKATHON</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#">Problem</li>
+                <li><a href="#">Solution</li>
+                <li><a href="#">News</li>
+                <li><a href="#">Notification</li>
+                <li><a href="#">Today's Update</li>
+            </ul>
+        </div>
+    <div class="row">
+        <div class="col">
+            <h1>Share Your Problem, <br>
+                Work For Solutions
+            </h1>
+            <p>Your Corporation And Participation 
+                In Bringing New Thoughts Will Help Us 
+            Bring A New Life To Our Mother Earth.</p>
+            <button type="button1"><a href="#"></a>Login</button>
+            <button type="button2">Register</button>
+        </div>
+        <div class="col"></div>
+    </div>
