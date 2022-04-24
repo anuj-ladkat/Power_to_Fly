@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+    .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(122, 121, 121, 0.116),rgba(124, 122, 122, 0.295)),url(BACKGROUND\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+    
+    }
+    .navbar
+    {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo{
+        width: 300px;
+        cursor: pointer;
+    }
+    .nav{
+        flex: 1;
+        text-align: right;
+       
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+        position: relative;
+        
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: #fff;
+   
+    
+    }
+    .navbar ul li::after{
+        content:'';
+        height: 3px;
+        width: 0;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+
+    }
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+        
+    }
+    .col{
+flex-basis: 50%;
+
+    }
+h1{
+    color: #fff;
+    font-size: 60px;
+
+}
+p{
+    color: #fff;
+    font-size: 30x;
+line-height: 30px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+
+}
+.button1:hover,.button2:hover{
+color: aqua;
+}
+.button1,.button2{
+    padding-right: 30px;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 255, 255, 0.897);
+    z-index: -1;
+    transition: 0.8s;
+}
+.button1::before,.button2::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.button1:hover::before,.button2:hover::before
+{
+    height:180%;
+}
